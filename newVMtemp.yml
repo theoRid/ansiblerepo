@@ -12,7 +12,7 @@
         username: "administrator@vsphere.local"
         password: "P@ssw0rd"
         validate_certs: "false"
-        datacenter_name: "Solution Center"
+        datacenter_name: "Huawei"
         folder_name: "newvm"
         folder_type: vm
         state: present
