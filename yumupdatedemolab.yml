@@ -1,6 +1,7 @@
 ---
 - name: This update a rhel server
   hosts: web
+  sudo: yes
   tasks:
   - name: Update all package
     yum:
